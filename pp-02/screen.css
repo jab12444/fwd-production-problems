@@ -16,5 +16,16 @@ html {
   font-size: 1.25em; /* 20px / 16px = 1.25 */
   line-height: 1.25em; /* 25px / 20px = 1.25 */
   padding: 25px 12.5px 25px 12.5px; /* TRBL */
-  color: purple;
+}
+
+h1 {
+  font-size: 1.7769em; /* 35.538 / 20px = 1.7769 */
+  line-height: 1.0552085092em; /* 37.5 / 35.538 = 1.0552085092; (1.5 times the 25px baseline */
+  padding-bottom: 25px;
+}
+
+h2 {
+  font-size: 1.3334em;
+  line-height: 1.0552085092em;
+  padding-bottom: 12.5px;
 }
