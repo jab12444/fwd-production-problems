@@ -26,10 +26,20 @@ h1 {
 
 h2 {
   font-size: 1.3334em;
-  line-height: 1.0552085092em;
+  line-height: 0.8793404em;
   padding-bottom: 12.5px;
 }
 
 p {
-  padding-bottom: 12.5
+  padding-bottom: 12.5px;
+}
+
+ul {
+  margin-left: 12.5px;
+  padding-bottom: 12.5px;
+  list-style-type: disc;
+}
+
+li {
+  padding-bottom: 12.5px;
 }
