@@ -37,10 +37,30 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 }
 
-@media screen and (min-width: 600px) {
 
+main {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+section {
+  display: flex;
+  width: 25vw;
+  height: 25vh;
+}
+
+@media screen and (min-width: 600px) {
+  section{
+    display: flex;
+  }
 }
 
 @media screen and (min-width: 800px) {
-
+  section {
+  display: flex;
+  width: 25vw;
+  height: 25vh;
+  margin: auto;
+}
 }
