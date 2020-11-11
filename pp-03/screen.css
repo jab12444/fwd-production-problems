@@ -37,6 +37,24 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 }
 
+@media screen and (min-width: 600px) {
+  .section{
+    width: 12.5vw;
+    height: 12.5vh;
+    flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  section {
+  display: flex;
+  width: 25vw;
+  height: 25vh;
+  margin: auto;
+}
+}
+
+
 
 main {
   display: flex;
@@ -48,19 +66,4 @@ section {
   display: flex;
   width: 25vw;
   height: 25vh;
-}
-
-@media screen and (min-width: 600px) {
-  section{
-    display: flex;
-  }
-}
-
-@media screen and (min-width: 800px) {
-  section {
-  display: flex;
-  width: 25vw;
-  height: 25vh;
-  margin: auto;
-}
 }
