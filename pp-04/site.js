@@ -5,15 +5,13 @@
 */
 
 x = 5;
-double(6);
 
 function double(num) {
   x = num * 2;
   return x;
-
-
-
 }
+
+double(6);
 console.log('The value of x is', x, '-- it should be 5.');
 
 /*
