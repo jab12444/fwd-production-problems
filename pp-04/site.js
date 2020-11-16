@@ -4,6 +4,7 @@
   `x` as the variable inside the function, however.
 */
 
+/*
 x = 5;
 
 function double(num) {
@@ -13,6 +14,7 @@ function double(num) {
 
 double(6);
 console.log('The value of x is', x, '-- it should be 5.');
+*/
 
 /*
   Step 2. Rewrite the JavaScript `double()` function above so that
@@ -23,6 +25,21 @@ console.log('The value of x is', x, '-- it should be 5.');
   Be sure to comment out the original `double()` function so you
   can accurately test your work.
 */
+
+
+(function math() {
+ var x = 5;
+ function double(num) {
+   var x = num * 2;
+   return x;
+  }
+ }
+double(6);
+console.log('The value of x is', x, '-- it should be 5.');
+}
+math();
+
+
 
 
 /*
